@@ -7,9 +7,13 @@
 - `<h1> to <h6>`
 - `<p>`
 - `<span>`
-- `<div>`
+- `<b>`
+- `<i>`
+- `<u>`
+- `<strong>`
+- `<em>`
 
-## Example: Using `<h1> to <h6>`, `<p>`, `<div>`, and `<span>` Tags
+## Example: Using basic Tags
 
 ```jsx
 <!DOCTYPE html>
@@ -33,21 +37,45 @@
   <!-- Paragraph Tag -->
   <div>
     <p>
-      This is a paragraph. Some parts of this text are <span>highlighted</span>
-      and <span>italicized</span> using the `<span>` tag.
+      This is a paragraph. Some parts of this text are
+
+      // bold tag
+      <span>
+      <b>bold</b>
+      </span>,
+
+      // italic tag
+      <span>
+      <i>italicized</i>
+      </span>,
+
+      // underline tag
+      <span>
+      <u>underlined</u>
+      </span>,
+
+      // strong tag
+      <span>
+      <strong>strongly emphasized</strong>
+      </span>,
+
+      // em tag
+      <span>
+      <em>emphasized</em>
+      </span> using different HTML tags.
     </p>
   </div>
 
-  <!-- Div Container (using all 4 tags i.e `div`, `h2`, `p`  and `span`) -->
+  <!-- Div Container (using all 4 tags i.e `div`, `h2`, `p` and `span`) -->
   <div>
     <h2>This is a Div Container</h2>
     <p>
       The `<div>` tag is a container that groups content together.
-      The `<span>` tag is used here
-      without breaking the flow of the paragraph.
+      You can make text <b>bold</b>, <i>italicized</i>,
+      <u>underlined</u>, or combine them like
+      <strong><em>bold and italicized</em></strong> for added emphasis.
     </p>
   </div>
-
 </body>
 </html>
 ```
